@@ -24,7 +24,7 @@ Convolution and related operations are found in many applications in science, en
 1 x 1 convolution simply mean Just one filter with size 1x1 . 1x1 convolution leads to dimension reductionality.
 For example, an image of 200 x 200 with 50 features on convolution with 20 filters of 1x1 would result in size of 200 x 200 x 20.
 
-![Convolution with kernel of size 3x3](src="https://raw.githubusercontent.com/iamaaditya/iamaaditya.github.io/master/images/conv_arithmetic/full_padding_no_strides_transposed.gif")
+![Convolution with kernel of size 3x3](https://raw.githubusercontent.com/iamaaditya/iamaaditya.github.io/master/images/conv_arithmetic/full_padding_no_strides_transposed.gif)
 Convolution with kernel of size 3x3
 
 ## 1x1 filters proposes two main purposes.
