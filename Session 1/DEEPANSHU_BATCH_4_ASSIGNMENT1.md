@@ -50,3 +50,36 @@ Pooling with 1x1 convolution
 3. Replace fully connected layers with 1x1 convolutions as Yann LeCun believes they are the same.
 
 
+# How to create an account on GitHub and upload a sample project
+
+GitHub is an online browser based distributed version control system for software developers using the Git revision control system.
+
+## Create an account
+
+If you already have a Github.com account you are ready to get started. Otherwise, you can set up your free account by following these steps:
+
+1. Access Github.com. Go to the Github sign up page.
+2. Enter a username, valid email address, and password in the supplied field. Use at least one lowercase letter, one number, and seven characters. Then click Sign up for GitHub.
+3. Choose a plan. Select the Unlimited public repositories for free option.
+4. You will receive a verification email at the address provided.
+5. Click the emailed link to complete the verification process.
+6. You finished! Your GitHub account created!
+
+## Upload a sample project
+
+Once you’ve signed in, you’ll create a new repository to get started. Follow the below steps to upload project on github.
+
+1. Click the "New Repository" button in the "Your Repositories" pane on right side of the page.
+2. On the new repository screen, you need to give this repository a special name to generate your project repo and an optional description and homepage URL.
+3. Select the "Public" option to create a free public repo that anyone can access, or select the "Private" option to upgrade to a paid account and create a private repository.
+4. Click the "Create Repository" button to create your repo.
+5. You will get your github repo URL in both https and ssh network protocol. Copy the URL to add in your project later.
+6. Create sample project in your system. Go inside to that sample project by command prompt or terminal.
+7. Initialize the git using this command: git init
+8. Add remote url which you obtained in 5th Step using this command: git remote add origin URL
+9. Commit the code and add message to it using this command: git commit -m "Initial Commit"
+10. Pust the code to your github profile using this command: git push origin master
+11. Write this command to check your status of your repo: git status
+
+"master" is a default branch name.
+"origin" is a default remote repository name.
