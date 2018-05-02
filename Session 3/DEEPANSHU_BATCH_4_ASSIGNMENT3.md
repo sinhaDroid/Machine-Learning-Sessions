@@ -48,3 +48,39 @@ In this normalizatoin, Input values for different neurons in the same layer are 
 Salimans and Kingma introduce weight normalization, a reparameterization of network weights in order to improve training.
 
 A reparameterization of the weight vectors in a neural network that decouples the length of those weight vectors from their direction. By reparameterizing the weights in this way we improve the conditioning of the optimization problem and we speed up convergence of stochastic gradient descent.
+
+
+# Optimization
+
+Optimization formulations and methods are proving to be vital in designing algorithms to extract essential knowledge from huge volumes of data.
+
+## SGD
+
+SGD also stands for Stochastic Gradient Descent, performs a parameter update for each training example. It can make erratic updates on non-smooth loss functions. It is usually much faster technique. It performs one update at a time.
+
+## RMSProp
+
+It is an unpublished, adaptive learning rate method. It has been developed independently around the same time stemming from the need to resolve Adagrad's radically diminishing learning rates.
+
+RMSprop as well divides the learning rate by an exponentially decaying average of squared gradients
+
+## Adam
+
+The Adam optimization algorithm is an extension to stochastic gradient descent that has recently seen broader adoption for deep learning applications in computer vision and natural language processing.
+
+Some benefits of using Adam on non-convex optimization problems:
+1. Straightforward to implement.
+2. Computationally efficient.
+3. Little memory requirements.
+4. Invariant to diagonal rescale of the gradients.
+5. Well suited for problems that are large in terms of data and/or parameters.
+6. Appropriate for non-stationary objectives.
+7. Appropriate for problems with very noisy/or sparse gradients.
+8. Hyper-parameters have intuitive interpretation and typically require little tuning.
+
+## Cyclic Learning Rates
+
+It is one of the most important hyperparameters to be tuned and holds key to faster and effective training of neural networks.
+
+Cyclic Learning Rates, practically eliminates the need to experimentally find the best values and schedule for the global learning rates. Instead of monotonically decreasing the learning rate, this method lets the learning rate cyclically vary between reasonable boundary values.
+
