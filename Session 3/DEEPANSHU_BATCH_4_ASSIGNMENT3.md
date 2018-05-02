@@ -44,3 +44,7 @@ It is very similar to batch normalization, acts on a per layer per sample basis,
 In this normalizatoin, Input values for different neurons in the same layer are normalized without consideration of mini batch. All of the summed inputs to the neurons in a layer is on a single training case.
 
 ## Weight Normalization
+
+Salimans and Kingma introduce weight normalization, a reparameterization of network weights in order to improve training.
+
+A reparameterization of the weight vectors in a neural network that decouples the length of those weight vectors from their direction. By reparameterizing the weights in this way we improve the conditioning of the optimization problem and we speed up convergence of stochastic gradient descent.
