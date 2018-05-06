@@ -66,7 +66,7 @@ RMSprop as well divides the learning rate by an exponentially decaying average o
 
 ## Adam
 
-The Adam optimization algorithm is an extension to stochastic gradient descent that has recently seen broader adoption for deep learning applications in computer vision and natural language processing.
+The **Adam optimization algorithm is an extension to stochastic gradient descent that has recently seen broader adoption for deep learning applications in computer vision and natural language processing.
 
 Some benefits of using Adam on non-convex optimization problems:
 1. Straightforward to implement.
