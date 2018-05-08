@@ -14,7 +14,7 @@ We need DropOut to prevent over-fitting. A fully connected layer occupies most o
 
 It is a nice technique to regularize models trained with cross-entropy error.
 
-Label smoothing regularization estimates the marginalized effect of label-dropout during training, reducing overfitting by preventing a network from assigning full probability to each training example and maintaining a reasonable ratio between the logits of the incorrect classes. 
+Label smoothing regularization estimates the marginalized effect of label-dropout during training, reducing overfitting by preventing a network from assigning full probability to each training example and maintaining a reasonable ratio between the logits of the incorrect classes.
 
 It can be exhaustively evaluate on 6 commong benchmarks:
 
@@ -42,7 +42,7 @@ Some of the benefits are:
 
 ### Layer Normalization
 
-It is very similar to batch normalization, acts on a per layer per sample basis, where the mean and variance are calculated for a specific layer for a specific training point. 
+It is very similar to batch normalization, acts on a per layer per sample basis, where the mean and variance are calculated for a specific layer for a specific training point.
 
 In this normalizatoin, Input values for different neurons in the same layer are normalized without consideration of mini batch. All of the summed inputs to the neurons in a layer is on a single training case.
 
